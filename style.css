@@ -1,0 +1,111 @@
+body{background-color: rgb(170, 228, 255);}
+
+.main{display: flex;
+    flex-direction: row;
+    border: initial;
+    background-color: rgb(45, 71, 119);
+    height: 100px;
+}
+.fb,.ins,.ut,.wt,.tw, text,.btn{ margin: 30px 10px 40px 10px;}
+.btn{margin-left: 40px;}
+.text{ margin: 30px 0px 0px 60px; }
+nav ul{float: left;
+ 
+}
+nav{float:right;
+margin-right: 40px;}
+
+ul li a:hover{background-color: rgb(49, 83, 134);
+border-radius: 25px;}
+
+
+nav ul li{ float: left;
+list-style: none;
+position: relative;
+
+
+
+}
+
+nav ul li a{display: block;
+padding: 14px 14px;
+text-decoration: none;
+color: black;
+}
+
+nav ul li ul{ 
+    display: none;
+    position: absolute;
+    padding: 08px;
+   
+  
+}
+
+nav ul li ul li a{
+    padding: 10px; 
+
+}
+nav ul li:hover ul{ 
+    display: block;
+    border-radius: 25px;
+ 
+ 
+}
+nav ul li ul li {
+    width: 180px;
+  background-color: rgb(248, 245, 240);
+  
+}
+nav ul li ul li a:hover{padding: 10px;
+    background-color: rgb(49, 83, 134);}
+    .marquee{border:4px solid rgb(17, 16, 16);
+    background-color: teal;}
+    .txt{text-align: center;}
+    .paragraph{text-align: center;
+        margin-left: 80px;
+        margin-right: 80px;}
+
+       
+        
+        .flex-container {
+            display: flex;
+           border: white;
+        
+          }
+          
+          .flex-container > div {
+            background-color: white;
+            margin: 10px;
+            padding: 100px;
+            font-size: 30px;
+            color: black;
+          }
+         
+.up{border: 2px solid gray;}
+.Contect{ float: left;
+
+background-color: rgb(70, 63, 63);
+margin-top: 100px;
+width: 1000px;}
+
+          
+      
+
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
